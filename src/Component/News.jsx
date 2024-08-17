@@ -90,9 +90,7 @@ const News = () => {
 
   return (
     <div className="news-carousel container mx-auto py-8 relative">
-      <h2 className="text-3xl font-bold pl-2 mb-8 ">
-        Latest News from Bangladesh
-      </h2>
+      <h2 className="text-3xl font-bold pl-2 mb-8 ">Latest Project News</h2>
       <Carousel
         arrows
         infinite={true}

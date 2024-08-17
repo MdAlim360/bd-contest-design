@@ -15,7 +15,7 @@ const Eservices = () => {
             <h2 className="text-2xl pt-4 md:pt-4 lg:pt-16 lg:text-3xl font-bold text-white">
               Explore Online Services & Resource
             </h2>
-            <p className="mt-4 text-gray-700 pb-3 md:pb-3 lg:pb-6 pt-0 md:pt-0 lg:pt-3">
+            <p className="mt-4 text-white pb-3 md:pb-3 lg:pb-6 pt-0 md:pt-0 lg:pt-3">
               City government providing a wide range of online services to
               people who need help.
             </p>

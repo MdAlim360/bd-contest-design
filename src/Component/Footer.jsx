@@ -1,7 +1,7 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="bg-green-700 text-white py-8 h-96 md:py-12 ">
+  <footer className="bg-green-700 text-white py-8 h-[800px] px-2 md:h-96 md:px-2 lg:px-0 md:py-12 ">
     <div className="text-center ">
       <h1 className="text-3xl text-white font-medium">
         Ministry of Information and Broadcasting
@@ -41,6 +41,11 @@ const Footer = () => (
               Contact
             </a>
           </li>
+          <li>
+            <a href="/contact" className="hover:text-red-600">
+              Condition for uses
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -71,11 +76,15 @@ const Footer = () => (
 
       {/* Subscribe for Updates */}
       <div className="w-full md:w-1/4">
-        <h4 className="text-lg font-semibold mb-2">Subscribe</h4>
+        <h4 className="text-lg font-semibold mb-2">
+          Planning and Implementation:{" "}
+        </h4>
         <p className="text-sm mb-4">
-          Get the latest updates directly to your inbox.
+          Cabinet Division, A2I, BCC, DOICT and BASIS
         </p>
-        <form className="flex flex-col sm:flex-row items-center">
+        <p className="text-lg font-semibold mb-2">Technical Support:</p>
+        <img src="https://i.ibb.co/kmPcQyg/222.png" alt="" />
+        {/* <form className="flex flex-col sm:flex-row items-center">
           <input
             type="email"
             placeholder="Enter your email"
@@ -84,7 +93,7 @@ const Footer = () => (
           <button className="w-full sm:w-auto bg-red-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded active:bg-red-500">
             Subscribe
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   </footer>

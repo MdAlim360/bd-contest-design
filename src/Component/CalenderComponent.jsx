@@ -16,10 +16,11 @@ import "react-calendar/dist/Calendar.css";
 
 // Sample data for meetings
 const meetings = [
-  { date: "2024-08-15", title: "Project Kickoff Meeting" },
-  { date: "2024-08-16", title: "Design Review" },
-  { date: "2024-08-17", title: "Sprint Planning" },
-  { date: "2024-08-17", title: "Sprint Planning" },
+  { date: "2024-09-15", title: "Project Kickoff Meeting" },
+  { date: "2024-09-16", title: "Design Review" },
+  { date: "2024-09-18", title: "Sprint Planning" },
+  { date: "2024-09-19", title: "Sprint Planning" },
+  { date: "2024-09-20", title: "Sprint Planning" },
 ];
 
 const CalendarComponent = () => {

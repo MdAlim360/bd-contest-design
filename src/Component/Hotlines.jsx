@@ -17,7 +17,7 @@ import { useRef } from "react";
 const hotlines = [
   {
     number: "333",
-    department: "Government information",
+    department: "Government info",
     icon: <FaInfoCircle />,
   },
 
@@ -84,7 +84,7 @@ const Hotlines = () => {
             centerPadding="0px"
             responsive={[
               {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                   slidesToShow: 2,
                   slidesToScroll: 1,

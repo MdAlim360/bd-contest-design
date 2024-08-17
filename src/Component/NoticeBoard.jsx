@@ -28,21 +28,26 @@ const NoticeBoard = () => {
               animationPlayState: isPaused ? "paused" : "running",
             }}
           >
-            <p className="text-lg font-semibold px-4">
-              <span className="text-red-300">New Notice:</span> Welcome to the
-              Ministry of Information and Broadcasting, Bangladesh! Stay updated
-              with the latest news and notices.
-            </p>
-            <p className="text-lg font-semibold px-4">
-              <span className="text-red-300">New Notice:</span> Welcome to the
-              Ministry of Information and Broadcasting, Bangladesh! Stay updated
-              with the latest news and notices.
-            </p>
-            <p className="text-lg font-semibold px-4">
-              <span className="text-red-300">New Notice:</span> Welcome to the
-              Ministry of Information and Broadcasting, Bangladesh! Stay updated
-              with the latest news and notices.
-            </p>
+            <a href="/" className="text-lg font-semibold px-4">
+              <span className="text-red-300">Notice:</span> G.O.No.-1602/1(8)
+              (Notification: Out of Bangladesh Holiday) (New)
+            </a>
+            <a href="/" className="text-lg font-semibold px-4">
+              <span className="text-red-300"></span> G.O.No.-332 (Condolence)
+              (New)
+            </a>
+            <a href="/" className="text-lg font-semibold px-4">
+              <span className="text-red-300"></span> G.O.No.-330(8)
+              (Notification) Transfer/Appointment of Officers. (new)
+            </a>
+            <a href="/" className="text-lg font-semibold px-4">
+              <span className="text-red-300"></span> G.O.No.-237 (Office Order:
+              Directing to join own office)
+            </a>
+            <a href="/" className="text-lg font-semibold px-4">
+              <span className="text-red-300"></span> G.O.No.-322(5)
+              (Notification) Regarding Permanentization of Employment.
+            </a>
           </div>
         </div>
       </div>

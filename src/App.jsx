@@ -7,9 +7,11 @@ import Head from "./Component/Head";
 import Header from "./Component/Header";
 import Hotlines from "./Component/HotLines";
 import InformationComponent from "./Component/InformationComponent";
+import InnovationCorner from "./Component/InnovationCorner";
 import Navbar from "./Component/Navbar";
 import News from "./Component/News";
 import NoticeBoard from "./Component/NoticeBoard";
+import Subnav from "./Component/Subnav";
 
 const App = () => (
   <div className="font-sans text-gray-900">
@@ -47,8 +49,12 @@ const App = () => (
       <div className="mt-24">
         <ComplainBox />
       </div>
+      <div className="mt-24">
+        <InnovationCorner />
+      </div>
     </main>
     <div className="mt-20">
+      <img src="https://i.ibb.co/7tBqvtk/333.png" alt="" />
       <Footer />
     </div>
   </div>
